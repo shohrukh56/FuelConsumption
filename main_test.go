@@ -13,7 +13,7 @@ func Test_fuelConsumption(t *testing.T) {
 
 		{"need fuel in 100 km is 0", 0, 5, 0},
 		{"left fuel is 0", 10,0, 0},
-		{"Have Liters is less than 0", 10, -4, 0.},
+		{"Have Liters is less than 0", 10, -3, 0.},
 		{"Both of them is 0", 0, 0 , 0},
 		{"both of them more than 0", 5, 10, 200},
 	}
